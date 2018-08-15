@@ -94,6 +94,8 @@ FieldRowPanel
 HelpPanel
 ---------
 
+A panel type HelpPanel allows to easily add HTML within an edit form.
+
 .. class:: HelpPanel(content='', template='wagtailadmin/edit_handlers/help_panel.html', heading='', classname='')
 
     .. attribute:: HelpPanel.content
