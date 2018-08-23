@@ -286,7 +286,7 @@ body.explorer-open {
         position: absolute;
         top: 175px; // WARNING - magic number - the height of the logo plus search box
         bottom: 0;
-        margin-bottom: 127px; // WARNING - magic number - the height of the .footer
+        margin-bottom: 50px; // WARNING - magic number - the height of the unexpanded .footer
         width: 100%;
         overflow: auto;
 
@@ -353,6 +353,10 @@ body.explorer-open {
         }
     }
 
+    .nav-main.nav-more_margin-for-footer {
+        margin-bottom: 127px; // WARNING - magic number - the height of the expanded .footer
+    }
+    
     .nav-submenu {
         transform: translate3d(0, 0, 0);
         position: fixed;
